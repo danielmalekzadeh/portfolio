@@ -5,9 +5,12 @@ import { myPicture } from "../assets";
 
 const Hero = () => {
   return (
-    <div className="md:h-[550px] flex flex-col md:flex-row justify-between">
-      <div className="hero--left_content w-full h-full flex flex-col justify-center px-4 py-6 order-2 md:px-0 md:py-0 md:order-1">
-        <div className="content space-y-3">
+    <div
+      id="home"
+      className="md:h-[550px] flex flex-col md:flex-row justify-between"
+    >
+      <div className="hero--left_content w-full h-full flex flex-col justify-center py-9 order-2 md:py-0 md:order-1">
+        <div className="content space-y-3 text-center md:text-left">
           <p>
             Hi, I’am <b>Daniel</b> 👋
           </p>
@@ -20,7 +23,7 @@ const Hero = () => {
             help you build your next dream project.
           </p>
         </div>
-        <div className="mt-6">
+        <div className="mt-6 text-center md:text-left">
           <a
             href="#"
             className="py-2 px-5  bg-black text-white rounded-3xl shadow-c-shadow hover:drop-shadow-lg"

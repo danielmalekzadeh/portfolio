@@ -28,14 +28,14 @@ const Navbar = () => {
             menuOpen ? "flex" : "hidden"
           } bg-white flex-col  absolute  top-[30px] -left-[180px]  w-[200px] p-2 rounded-xl shadow-lg md:shadow-none md:w-full md:flex-row md:static md:flex`}
         >
-          <a href="#" className="py-2 px-5 hover:opacity-75">
+          <a href="#home" className="py-2 px-5 hover:opacity-75">
             Home
           </a>
-          <a href="#" className="py-2 px-5 hover:opacity-75">
+          <a href="#about-me" className="py-2 px-5 hover:opacity-75">
             About me
           </a>
-          <a href="#" className="py-2 px-5 hover:opacity-75">
-            SKills
+          <a href="#skills" className="py-2 px-5 hover:opacity-75">
+            Skills
           </a>
           <a href="#" className="py-2 px-5 hover:opacity-75">
             Projects
