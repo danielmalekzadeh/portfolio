@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     fontFamily: {
       poppins: ["Poppins", "sans-serif"],
+      itim: ["Itim", "cursive"],
     },
     extend: {
       boxShadow: {

@@ -5,7 +5,7 @@ import { myPicture } from "../assets";
 
 const Hero = () => {
   return (
-    <div className="h-[600px] flex flex-col md:flex-row justify-between">
+    <div className="md:h-[550px] flex flex-col md:flex-row justify-between">
       <div className="hero--left_content w-full h-full flex flex-col justify-center px-4 py-6 order-2 md:px-0 md:py-0 md:order-1">
         <div className="content space-y-3">
           <p>

@@ -1,7 +1,7 @@
 import React from "react";
 
 // import our component
-import { Navbar, Hero } from "./components";
+import { Navbar, Hero, About } from "./components";
 
 // import assets
 import { e1, e2 } from "./assets";
@@ -24,6 +24,7 @@ const App = () => {
       <div className="container m-auto">
         <Navbar />
         <Hero />
+        <About />
       </div>
     </div>
   );
