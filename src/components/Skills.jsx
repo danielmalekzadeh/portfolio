@@ -22,7 +22,7 @@ const Skills = () => {
       <p className="mt-4 opacity-75 text-center">
         I love learning and always looking for new things
       </p>
-      <div className="py-3 flex gap-2 overflow-x-auto bg-white">
+      <div className="py-4 flex gap-2 overflow-x-auto bg-white">
         <Swiper
           slidesPerView={cwidth > 768 ? "12" : "5"}
           spaceBetween={15}

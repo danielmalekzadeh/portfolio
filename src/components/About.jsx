@@ -17,7 +17,7 @@ const About = () => {
         <div className="w-full flex items-center justify-center py-7 md:py-0">
           <img src={tech} alt="tech image" width={280} />
         </div>
-        <div className="px-4 mt-5 rounded-2xl w-full">
+        <div className="px-4 mt-4 rounded-2xl w-full">
           <p className="text-xl leading-8 max-w-3xl">
             My name is Daniel, I am 19 years old and I have been working in the
             field of web design and development for 2 years and I am also

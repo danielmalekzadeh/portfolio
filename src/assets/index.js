@@ -8,6 +8,8 @@ import e3 from "./e3.png";
 import e4 from "./e4.png";
 import threeB from "./3b.png";
 import tech from "./tech.png";
+import github from "./github.png";
+import twitter from "./twitter.png";
 
 // import icons
 import css from "./icons/css.png";
@@ -75,6 +77,8 @@ export {
   threeB,
   tech,
   arrowRightUp,
+  github,
+  twitter,
 };
 export { icons };
 export { myWebsite, tiktik, musicPlatform, ecommerce, shareme, socialmedia };
