@@ -13,7 +13,7 @@ const Footer = () => {
         <a href="https://github.com/danielmalekzadeh">
           <img src={github} alt="github" width={48} />
         </a>
-        <a href="https://github.com/danielmalekzadeh">
+        <a href="https://twitter.com/danielmodx">
           <img src={twitter} alt="github" width={48} />
         </a>
       </div>
