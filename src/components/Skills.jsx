@@ -22,21 +22,21 @@ const Skills = () => {
       <p className="mt-4 opacity-75 text-center">
         I love learning and always looking for new things
       </p>
-      <div className="py-3 flex gap-2 overflow-x-auto">
+      <div className="py-3 flex gap-2 overflow-x-auto bg-white">
         <Swiper
-          slidesPerView={cwidth > 768 ? "auto" : "5"}
+          slidesPerView={cwidth > 768 ? "12" : "5"}
           spaceBetween={15}
           freeMode
           centeredSlides
           centeredSlidesBounds
           modules={[FreeMode]}
-          style={{ padding: "8px" }}
+          style={{ paddingTop: "16px", paddingBottom: "16px" }}
         >
           {icons.map((icon, idx) => (
             <SwiperSlide
               key={idx}
               style={{ width: "8%", height: "auto" }}
-              className="shadow rounded-3xl hover:bg-gray-100 cursor-pointer h-auto w-[8%]"
+              className="shadow rounded-3xl hover:bg-gray-100 cursor-pointer h-auto w-[8%] z-50"
             >
               <img src={icon} alt="icon" />
             </SwiperSlide>

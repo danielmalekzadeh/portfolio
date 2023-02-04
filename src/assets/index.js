@@ -30,6 +30,15 @@ import typescript from "./icons/typescript.png";
 import vitejs from "./icons/vitejs.png";
 import vs from "./icons/vs.png";
 import webpack from "./icons/webpack.png";
+import arrowRightUp from "./icons/arrow-right-up.png";
+
+// import projects
+import myWebsite from "./projects/my-website.png";
+import tiktik from "./projects/tiktik.png";
+import musicPlatform from "./projects/music-platform.png";
+import ecommerce from "./projects/ecommerce.png";
+import shareme from "./projects/shareme.png";
+import socialmedia from "./projects/socialmedia.png";
 
 const icons = [
   css,
@@ -65,5 +74,7 @@ export {
   e4,
   threeB,
   tech,
+  arrowRightUp,
 };
 export { icons };
+export { myWebsite, tiktik, musicPlatform, ecommerce, shareme, socialmedia };

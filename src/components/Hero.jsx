@@ -25,7 +25,7 @@ const Hero = () => {
         </div>
         <div className="mt-6 text-center md:text-left">
           <a
-            href="#"
+            href="mailto:daniel.malekzadeh@hotmail.com"
             className="py-2 px-5  bg-black text-white rounded-3xl shadow-c-shadow hover:drop-shadow-lg"
           >
             Contact me
