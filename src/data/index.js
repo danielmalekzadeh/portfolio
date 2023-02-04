@@ -14,7 +14,7 @@ export const projectsData = [
     image: myWebsite,
     description: "A website to introduce myself and the projects I developed.",
     techs: ["React", "Tailwind CSS"],
-    ref: "https://github.com/danielmalekzadeh",
+    ref: "https://github.com/danielmalekzadeh/portfolio",
   },
   {
     name: "TikTik App",
